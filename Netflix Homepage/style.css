@@ -1,0 +1,534 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+body{
+    background-color: black;
+    width: 100%;
+    
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+
+}
+
+
+
+#logo{
+    height: 700px;
+    background-image: url("Netflix-Background.jpg");
+    
+    background-color:rgba(0, 0, 0, 0.699) ;
+    
+    background-size: cover;
+    
+
+}
+#netflix{
+    margin-left: 125px;
+    
+}
+#language{
+    position: absolute;
+    top: 40px;
+    right: 250px;
+    background-color: black;
+    color: white;
+    height: 30px;
+    width: 100px;
+    border-radius: 8px;
+}
+#sign_in{
+    position: absolute;
+    top: 42px;
+    right: 160px;
+    height: 23px;
+    width: 60px;
+    background-color: red;
+    color: white;
+    border-radius: 8px;
+    background-color: red;
+
+}
+
+#sign_in:hover{
+    background-color: rgb(171, 5, 5);
+}
+
+#input1{
+    height: 40px;
+    width: 400px;
+    position: absolute;
+    top: 425px;
+    left: 450px;
+    background-color: transparent;
+    backdrop-filter: blur(5px);
+    border: 2px solid white;
+    color: white;
+    font-size: 15px;
+    border-radius: 5px;
+    
+    
+    
+}
+
+
+#submit{
+    position: absolute;
+    top:425px ;
+    left: 860px;
+    height:45px ;
+    width: 130px;
+    background-color: red;
+    color: white;
+    font-size: 15px;
+    border-radius: 4px;
+}
+#submit:hover{
+    background-color:rgb(171, 5, 5) ;
+    transition: all 1ms ease-in;
+}
+
+
+
+
+#textt{
+    height: 100px;
+    
+    
+    font-size: 50px;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    top: 280px;
+    left: 320px;
+
+}
+
+#text2{
+    height: 10px;
+    position: absolute;
+    top: 345px;
+    left: 520px;
+    color: white;
+    font-size: 25px;
+    
+}
+
+#form{
+    text-decoration: none;
+    height: -10px;
+    position: absolute;
+    top: 385px;
+    left: 325px;
+    color: white;
+    font-size: 25px;
+}
+
+#img3{
+    position: absolute;
+    top: 2000px;
+    right: 120px;
+    z-index: 1;
+}
+
+.stranger{
+    position: absolute;
+    top: 1950px;
+    left: 885px;
+}
+
+#contnt{
+    
+    position: absolute;
+    top: 1000px;
+    left: 200px;
+    height: 500px;
+    
+    font-size: 25px;
+    color: white;
+    
+   
+    
+    
+}
+
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+#netflix_img{
+    
+    position: absolute;
+    bottom: 230px;
+    left: 600px;
+}
+.bb{
+    position: absolute;
+    left: 880px;
+    top: 745px;
+}
+
+
+
+#text4{
+    
+    position: absolute;
+    height: 600px;
+    top: 1300px;
+    width: 100%;
+    
+}
+#text5{
+    font-size: 55px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    position: absolute;
+    top: 160px;
+    right: 245px;
+}
+
+#text6{
+    position: absolute;
+    top: 290px;
+    right: 165px;
+    font-size: 27px;
+    color: white;
+}
+
+#text7{
+    height: 600px;
+    width: 100%;
+    position: absolute;
+    top: 1900px;
+    ;
+}
+
+#img2{
+    position: absolute;
+    left: 110px;
+    
+    
+}
+
+#text8{
+    font-size: 55px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    position: absolute;
+    top: 255px;
+    left: 240px;
+}
+
+#text9{
+    font-size: 27px;
+    color: white;
+    position: absolute;
+    top: 320px;
+    left: 240px;
+}
+
+#text10{
+    height: 600px;
+    width: 100%;
+    position: absolute;
+    top: 2550px;
+    
+
+}
+
+#text11{
+    font-size: 55px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    top: 270px;
+    right: 250px;
+    color: white;
+    
+}
+
+#text12{
+    font-size: 27px;
+    position: absolute;
+    top: 340px;
+    right: 250px;
+    color: white;
+}
+#img4{
+    position: absolute;
+    transform: translate(60px, 80px);
+}
+
+
+#footer1{
+    height: 1300px;
+    width: 100%;
+    position: absolute;
+    top: 3250px;
+}
+
+#que{
+    font-size: 65px;
+    position: absolute;
+    top: 70px;
+    left: 380px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+#footerdiv1{
+    
+    
+    font-size: 15px;
+    height: 70px;
+    width: 780px;
+    background-color: rgb(154, 153, 153);
+    transform: translate(375px,200px);
+}
+
+#footerdiv1:hover{
+    background-color: rgba(128, 128, 128, 0.948);
+    transition-delay: 50ms;
+}
+
+#que1{
+    transform: translate(20px,22px);
+
+}
+
+#footerdiv2{
+    
+    
+    font-size: 15px;
+    height: 70px;
+    width: 780px;
+    background-color: rgb(154, 153, 153);
+    transform: translate(375px,205px);
+
+}
+
+#footerdiv2:hover{
+    background-color: rgba(128, 128, 128, 0.948);
+    transition-delay: 50ms;
+}
+
+#que2{
+    transform: translate(20px,22px);
+
+}
+
+#footerdiv3{
+    
+    
+    font-size: 15px;
+    height: 70px;
+    width: 780px;
+    background-color:rgb(154, 153, 153);
+    transform: translate(375px,210px);
+}
+#footerdiv3:hover{
+    background-color: rgba(128, 128, 128, 0.948);
+    transition-delay: 50ms;
+}
+
+#que3{
+    transform: translate(20px,22px);
+
+}
+
+#footerdiv4{
+    
+    
+    font-size: 15px;
+    height: 70px;
+    width: 780px;
+    background-color:rgb(154, 153, 153);
+    transform: translate(375px,215px);
+}
+
+#footerdiv4:hover{
+    background-color: rgba(128, 128, 128, 0.948);
+    transition-delay: 50ms;
+}
+
+#que4{
+    transform: translate(20px,22px);
+
+}
+
+#footerdiv5{
+    
+    
+    font-size: 15px;
+    height: 70px;
+    width: 780px;
+    background-color:rgb(154, 153, 153);
+    transform: translate(375px,220px);
+}
+
+#footerdiv5:hover{
+    background-color: rgba(128, 128, 128, 0.948);
+    transition-delay: 50ms;
+}
+
+#que5{
+    transform: translate(20px,22px);
+
+}
+
+#footerdiv6{
+    
+    
+    font-size: 15px;
+    height: 70px;
+    width: 780px;
+    background-color: rgb(154, 153, 153);
+    transform: translate(375px,225px);
+}
+
+#footerdiv6:hover{
+    background-color: rgba(128, 128, 128, 0.948);
+    transition-delay: 50ms;
+}
+
+#que6{
+    transform: translate(20px,22px);
+
+}
+
+#form2{
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    top: 650px;
+    
+}
+#form4{
+    font-size: 20px;
+    transform: translate(400px, 240px);
+    
+}
+
+#input2{
+    height: 45px;
+    width: 600px;
+    transform: translate(400px,250px);
+    color: white;
+    font-size: 15px;
+    border-radius: 5px;
+    
+    
+    
+}
+
+
+#submit2{
+    transform: translate(400px,250px);
+    height:45px ;
+    width: 130px;
+    background-color: red;
+    color: white;
+    font-size: 15px;
+    border-radius: 4px;
+}
+
+#submit2:hover{
+    background-color:rgb(171, 5, 5) ;
+    transition: all 1ms ease-in;
+}
+
+#call{
+    position: absolute;
+    top: 4015px;
+    left: 100px;
+    font-size: 20px;
+    height: 50px;
+    width: 350px;
+}
+
+#atags1{
+    height: 50px;
+    width: 1200px;
+    position: absolute;
+    top: 4100px;
+    left: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-decoration: dashed;
+    
+    
+}
+
+#atags2{
+    height: 50px;
+    width: 1200px;
+    position: absolute;
+    top: 4150px;
+    left: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-decoration: dashed;
+    
+}
+
+#atags3{
+    height: 50px;
+    width: 1200px;
+    position: absolute;
+    top: 4200px;
+    left: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-decoration: dashed;
+    
+}
+
+#atags4{
+    height: 50px;
+    width: 900px;
+    position: absolute;
+    top: 4250px;
+    left: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-decoration: dashed;
+    
+}
+
+a {
+    color: rgb(237, 225, 225) !important;
+    
+}
+
+
+
+
+#language2{
+    position: absolute;
+    top: 4400px;
+    left: 200px;
+    background-color: black;
+    color: white;
+    height: 30px;
+    width: 100px;
+    border-radius: 8px;
+
+}
+
+#end{
+    position: absolute;
+    top: 4450px;
+    left: 200px;
+    font-size: 15px;
+    color: white;
+}
